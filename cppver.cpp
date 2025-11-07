@@ -1,10 +1,7 @@
 #include <iostream>
 
 int main() {
-    int n = 0;
-    std::cout << "Enter an integer" << std::endl;
-    std::cin >> n;
-    for (int i = 1; i <= n; i++) {
+    for (int i = 1; i <= 100; i++) {
         if (i % 15 == 0) {
             std::cout << "FizzBuzz" << std::endl;
         }

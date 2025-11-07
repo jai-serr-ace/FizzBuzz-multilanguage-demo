@@ -1,10 +1,4 @@
-const raw = process.argv[2];
-const n = Number(raw);
-
-if (!Number.isFinite(n) || Number.isNaN(n) || !Number.isInteger(n) || n < 1) {
-  console.error("Usage: node fizzbuzz.js <positive-integer>");
-  process.exit(1);
-}
+const n = 100; 
 
 for (let i = 1; i <= n; i++) {
   if (i % 15 === 0) {
